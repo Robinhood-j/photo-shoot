@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Capture Moments — Professional Photography</title>
+  <meta name="description" content="Capture Moments — portraits, weddings, events and commercial photography. Nairobi." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header id="header" class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="#" class="logo" data-page="home" aria-label="Capture Moments home">Capture<span>Moments</span></a>
+
+      <button id="hamburger" class="hamburger" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+
+      <ul id="nav-menu" role="menubar" aria-label="Primary">
+        <li><a href="#" class="nav-link active" data-page="home" role="menuitem">Home</a></li>
+        <li><a href="#" class="nav-link" data-page="portfolio" role="menuitem">Portfolio</a></li>
+        <li><a href="#" class="nav-link" data-page="about" role="menuitem">About</a></li>
+        <li><a href="#" class="nav-link" data-page="testimonials" role="menuitem">Testimonials</a></li>
+        <li><a href="#" class="nav-link" data-page="contact" role="menuitem">Contact</a></li>
+      </ul>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" aria-pressed="false" title="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- HOME -->
+    <section id="home-page" class="page active" aria-labelledby="home-title">
+      <section id="hero" class="hero">
+        <div class="hero-slides" aria-hidden="true">
+          <picture class="slide is-active">
+            <source media="(min-width:1200px)" srcset="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=80">
+            <img class="hero-img" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80" alt="Photographer capturing a portrait">
+          </picture>
+
+          <picture class="slide">
+            <source media="(min-width:1200px)" srcset="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1800&q=80">
+            <img class="hero-img" loading="lazy" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80" alt="Studio portrait sample">
+          </picture>
+
+          <picture class="slide">
+            <source media="(min-width:1200px)" srcset="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1800&q=80">
+            <img class="hero-img" loading="lazy" src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1200&q=80" alt="Wedding couple portrait">
+          </picture>
+        </div>
+
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-content">
+          <h1 id="home-title">Capturing Life's Beautiful Moments</h1>
+          <p class="lead">Professional photography services for weddings, portraits, events, and commercial projects</p>
+          <div class="hero-actions">
+            <a href="#" class="btn primary" data-page="portfolio">View Portfolio</a>
+            <a href="#" class="btn ghost" data-page="contact">Book a Session</a>
+          </div>
+        </div>
+
+        <div class="carousel-controls" aria-hidden="true">
+          <button class="carousel-prev" aria-label="Previous slide">‹</button>
+          <button class="carousel-next" aria-label="Next slide">›</button>
+        </div>
+      </section>
+
+      <!-- Featured -->
+      <section id="featured" class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Featured Work</h2>
+          </div>
+
+          <div class="gallery" id="featuredGallery">
+            <figure class="gallery-item card" data-full="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1600&q=80">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80" alt="Outdoor portrait">
+              <figcaption><h3>Outdoor Portrait</h3><p>Elegant candid session</p></figcaption>
+              <div class="card-actions">
+                <button class="analyze-btn" data-full="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1600&q=80">Analyze (AI)</button>
+                <button class="view-btn">View</button>
+              </div>
+            </figure>
+
+            <figure class="gallery-item card" data-full="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1600&q=80">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=900&q=80" alt="Wedding moment">
+              <figcaption><h3>Wedding Day</h3><p>Touching & candid</p></figcaption>
+              <div class="card-actions">
+                <button class="analyze-btn" data-full="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1600&q=80">Analyze (AI)</button>
+                <button class="view-btn">View</button>
+              </div>
+            </figure>
+
+            <figure class="gallery-item card" data-full="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=900&q=80" alt="Landscape">
+              <figcaption><h3>Landscape</h3><p>Scenic vistas</p></figcaption>
+              <div class="card-actions">
+                <button class="analyze-btn" data-full="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80">Analyze (AI)</button>
+                <button class="view-btn">View</button>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio-page" class="page" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="portfolio-title">Portfolio</h2>
+          <p>A selection of our recent work</p>
+        </div>
+
+        <div class="filter-row" role="toolbar" aria-label="Filter portfolio">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="portrait">Portrait</button>
+          <button class="chip" data-filter="wedding">Wedding</button>
+          <button class="chip" data-filter="landscape">Landscape</button>
+          <button class="chip" data-filter="commercial">Commercial</button>
+        </div>
+
+        <div class="gallery" id="portfolioGrid">
+          <figure class="gallery-item card" data-category="portrait" data-full="https://images.unsplash.com/photo-1518674660708-3f6a0a2f9b8d?auto=format&fit=crop&w=1600&q=80">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1518674660708-3f6a0a2f9b8d?auto=format&fit=crop&w=900&q=80" alt="Portrait sample">
+            <figcaption><h3>Portrait Series</h3></figcaption>
+            <div class="card-actions"><button class="analyze-btn" data-full="https://images.unsplash.com/photo-1518674660708-3f6a0a2f9b8d?auto=format&fit=crop&w=1600&q=80">Analyze (AI)</button><button class="view-btn">View</button></div>
+          </figure>
+
+          <figure class="gallery-item card" data-category="wedding" data-full="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=80">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Wedding sample">
+            <figcaption><h3>Wedding Collection</h3></figcaption>
+            <div class="card-actions"><button class="analyze-btn" data-full="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=80">Analyze (AI)</button><button class="view-btn">View</button></div>
+          </figure>
+
+          <figure class="gallery-item card" data-category="commercial" data-full="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=1600&q=80">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=900&q=80" alt="Commercial sample">
+            <figcaption><h3>Commercial Work</h3></figcaption>
+            <div class="card-actions"><button class="analyze-btn" data-full="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=1600&q=80">Analyze (AI)</button><button class="view-btn">View</button></div>
+          </figure>
+
+          <figure class="gallery-item card" data-category="landscape" data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Landscape sample">
+            <figcaption><h3>Landscape</h3></figcaption>
+            <div class="card-actions"><button class="analyze-btn" data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80">Analyze (AI)</button><button class="view-btn">View</button></div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about-page" class="page" aria-labelledby="about-title">
+      <div class="container about-container">
+        <div class="about-image">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1545996124-1fcd69f9f1b9?auto=format&fit=crop&w=900&q=80" alt="Jacinta Wanjiku - Photographer">
+        </div>
+        <div class="about-content">
+          <h2 id="about-title">Hello, I'm Jacinta Wanjiku</h2>
+          <p>With over 10 years of professional photography experience, I specialize in capturing authentic moments and emotions through my lens.</p>
+          <p>My approach is to create a comfortable, enjoyable experience that results in natural, beautiful images you'll treasure for years to come.</p>
+          <a href="#" class="btn primary" data-page="contact">Let's Work Together</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials-page" class="page" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="testimonials-title">Testimonials</h2>
+        </div>
+
+        <div class="testimonials">
+          <div class="testi-slider" data-testi>
+            <blockquote class="testi active">
+              <p class="quote">“Jacinta captured our wedding with such warmth — the photos are emotional, honest and beautiful.”</p>
+              <cite>— Michael &amp; Amina</cite>
+            </blockquote>
+
+            <blockquote class="testi">
+              <p class="quote">“Fast, professional and the album quality exceeded expectations. Highly recommended.”</p>
+              <cite>— Nairobi Coffee Co.</cite>
+            </blockquote>
+
+            <blockquote class="testi">
+              <p class="quote">“Our commercial shoot was smooth; high quality images and great attention to brand guidelines.”</p>
+              <cite>— KEN Brands</cite>
+            </blockquote>
+          </div>
+
+          <div class="testi-controls">
+            <button class="testi-prev" aria-label="Previous testimonial">‹</button>
+            <div class="testi-dots" aria-hidden="true"></div>
+            <button class="testi-next" aria-label="Next testimonial">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-page" class="page" aria-labelledby="contact-title">
+      <div class="container contact-container">
+        <div class="contact-info">
+          <h3 id="contact-title">Get In Touch</h3>
+          <p>Have questions about our services or ready to book a session? Fill out the form or contact us using the information below.</p>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div><p><strong>Email:</strong> info@capturemoments.com</p></div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div><p><strong>Phone:</strong> +254717000562</p></div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div><p><strong>Studio Address:</strong> 123 Photography Lane, Nairobi, Kenya</p></div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div><p><strong>Hours:</strong> Mon-Fri 9am-6pm, Sat 10am-4pm</p></div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form id="contactForm" autocomplete="on">
+            <div class="form-group">
+              <label for="c-name">Name</label>
+              <input type="text" id="c-name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="c-email">Email</label>
+              <input type="email" id="c-email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="c-service">Service Interested In</label>
+              <select id="c-service" name="service">
+                <option value="portrait">Portrait Photography</option>
+                <option value="wedding">Wedding Photography</option>
+                <option value="event">Event Photography</option>
+                <option value="commercial">Commercial Photography</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="c-message">Message</label>
+              <textarea id="c-message" name="message" required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <button type="button" id="saveDraft" class="btn ghost">Save draft</button>
+            </div>
+
+            <small class="form-foot">Demo saves to your browser or posts to the local Flask server if running.</small>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container footer-container">
+      <div class="footer-section">
+        <h3>Capture Moments</h3>
+        <p>Professional photography services specializing in portraits, weddings, events, and commercial projects.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#" data-page="home">Home</a></li>
+          <li><a href="#" data-page="portfolio">Portfolio</a></li>
+          <li><a href="#" data-page="about">About</a></li>
+          <li><a href="#" data-page="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Capture Moments Photography. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close (Esc)">✕</button>
+      <img class="lightbox-img" alt="" src="">
+      <div class="lightbox-info">
+        <p class="lightbox-caption"></p>
+        <div class="lightbox-tags"></div>
+        <a class="btn ghost lightbox-download" download>Download</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
